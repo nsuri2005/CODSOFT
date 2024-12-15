@@ -7,11 +7,11 @@ def game(user_choice,computer_choice):
     else:
         print("loss")
 list=["rock","paper","scissor"]
-loop=2
+loop=1
 while(loop!=0):
     computer_choice=random.choice(list)
     user_choice=input("enter your choice (eg:rock paper,scissor):")
     print("your choice:",user_choice)
     print("computer_choice:",computer_choice)  
     game(user_choice,computer_choice)
-    loop=int(input("do you want to continue 2.yes 0.no:"))
+    loop=int(input("do you want to continue 1.yes 0.no:"))
